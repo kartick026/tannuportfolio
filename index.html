@@ -460,13 +460,15 @@ body.dark-theme .theme-toggle-btn .sun-icon { display: block; }
   .p-track {
     display: flex;
     width: 100%;
-    gap: 28px;
+    gap: 24px;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    padding: 10px 0 20px;
+    scroll-padding-inline-start: 24px;
+    padding: 10px 24px 20px;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
   }
   .p-track::-webkit-scrollbar {
     display: none;
@@ -1181,7 +1183,7 @@ body.dark-theme .theme-toggle-btn .sun-icon { display: block; }
     <div class="p-track" id="p-track">
       <!-- Project 1 -->
       <div class="pcard-horizontal" data-index="0" data-images="WhatsApp%20Image%202026-06-16%20at%201.26.25%20PM.jpeg,WhatsApp%20Image%202026-06-16%20at%201.26.25%20PM%20(1).jpeg" data-title="Architectural Model" data-cat="Physical Model" data-desc="Multi-level contemporary structure exploring volumetric composition through hand-crafted foam board modeling. Includes conceptual drawings and structural blockout studies." data-year="2025">
-        <div class="pcard-img"><img src="WhatsApp%20Image%202026-06-16%20at%201.26.25%20PM.jpeg" alt="Architectural Model" loading="lazy"/></div>
+        <div class="pcard-img"><img src="WhatsApp%20Image%202026-06-16%20at%201.26.25%20PM.jpeg" alt="Architectural Model" loading="lazy" style="object-position: bottom;"/></div>
         <div class="pcard-body">
           <div class="pcat">Physical Model &middot; 2 Sheets</div>
           <div class="ptitle">Architectural Model</div>
